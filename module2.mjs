@@ -1,0 +1,10 @@
+const a="harry";
+const b="shubham";
+const c="vijay";
+const d="akash";
+const e="rupinder";
+export default c;
+export{a};
+export{b};
+export{d};
+export{e};
