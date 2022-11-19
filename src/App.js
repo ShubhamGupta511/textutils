@@ -2,16 +2,9 @@
 import react, { useState } from 'react';
 import './App.css';
 import Alert from './components/Alert';
-//import About from './components/About';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-//   Link
-// } from "react-router-dom";
 
 
 function App() {
@@ -50,7 +43,7 @@ function App() {
    <Alert alert={alert}/>
    <div className="container">
    
-    {/* <About mode={mode}/> */}
+    
     <Textform heading="Enter Text Here To Analyse" showAlert={showAlert} mode={mode}/>
     </div>
   
